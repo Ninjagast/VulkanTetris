@@ -1,0 +1,20 @@
+﻿  first_app.cpp
+  keyboard_movement_controller.cpp
+  lve_camera.cpp
+  lve_model.cpp
+  lve_pipeline.cpp
+  lve_renderer.cpp
+  lve_swap_chain.cpp
+  main.cpp
+  lve_window.cpp
+  lve_device.cpp
+  simple_render_system.cpp
+  tetris_controller.cpp
+  Generating code
+c:\users\steven\source\repos\vulkanproject\vulkanproject\tetris_controller.cpp(368): warning C4715: 'lve::TetrisController::checkLines': not all control paths return a value
+c:\users\steven\source\repos\vulkanproject\vulkanproject\tetris_controller.cpp(336): warning C4715: 'lve::TetrisController::moveDownCheckNextPiece': not all control paths return a value
+c:\users\steven\source\repos\vulkanproject\vulkanproject\tetris_controller.cpp(281): warning C4715: 'lve::TetrisController::moveRotatePiece': not all control paths return a value
+c:\users\steven\source\repos\vulkanproject\vulkanproject\tetris_controller.cpp(181): warning C4715: 'lve::TetrisController::createPiece': not all control paths return a value
+  All 2850 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  VulkanProject.vcxproj -> C:\Users\Steven\source\repos\VulkanProject\x64\Release\VulkanProject.exe

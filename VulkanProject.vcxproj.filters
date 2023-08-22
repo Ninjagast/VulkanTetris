@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{97a5fb2b-4ffc-4043-8dca-1feff78b1cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\engine">
+      <UniqueIdentifier>{befa6df5-8579-47a9-a3c1-6a75d96e3389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine">
+      <UniqueIdentifier>{8c41dc5a-d225-4cf0-bd4e-22aafd639b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\subSystems">
+      <UniqueIdentifier>{db4d62cc-564b-4739-b4e3-01030036f833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\subSystem">
+      <UniqueIdentifier>{15477f84-3e88-4a0b-a5fc-4e56153a65fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="first_app.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lve_camera.cpp">
+      <Filter>Resource Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="lve_device.cpp">
+      <Filter>Resource Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="lve_model.cpp">
+      <Filter>Resource Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="lve_pipeline.cpp">
+      <Filter>Resource Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="lve_window.cpp">
+      <Filter>Resource Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="lve_swap_chain.cpp">
+      <Filter>Resource Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="lve_renderer.cpp">
+      <Filter>Resource Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard_movement_controller.cpp">
+      <Filter>Resource Files\subSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_render_system.cpp">
+      <Filter>Resource Files\subSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="tetris_controller.cpp">
+      <Filter>Resource Files\subSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="first_app.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lve_camera.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="lve_device.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="lve_game_object.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="lve_model.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="lve_pipeline.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="lve_renderer.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="lve_swap_chain.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="lve_window.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard_movement_controller.hpp">
+      <Filter>Header Files\subSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_render_system.hpp">
+      <Filter>Header Files\subSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="tetris_controller.hpp">
+      <Filter>Header Files\subSystems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="simple_shader.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="simple_shader.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="compile.bat">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
